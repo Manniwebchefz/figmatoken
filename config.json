@@ -2,11 +2,11 @@
   "source": ["tokens/**/*.json"],
   "platforms": {
     "scss": {
-      "transformGroup": "scss",
+      "transformGroup": "css",
       "prefix": "sd",
-      "buildPath": "build/scss/",
+      "buildPath": "build/css/",
       "files": [{
-        "destination": "_variables.scss",
+        "destination": "_variables.css",
         "format": "scss/variables"
       }],
       "actions": ["copy_assets"]

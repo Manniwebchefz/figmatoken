@@ -3,17 +3,9 @@
  */
 
 :root {
-  --sd-theme-button-primary-background: #8a4848;
-  --sd-theme-button-primary-text: #4f589c;
   --sd-theme-button-border-radius: 15;
-  --sd-theme-button-border-width: 200;
   --sd-theme-card-border-radius: 50;
-  --sd-theme-card-background: #34972d;
-  --sd-theme-card-padding: 20rem;
+  --sd-theme-background-color-background: #c81a6b;
   --sd-theme-box-shadow-default: [object Object],[object Object];
-  --sd-theme-typography-h1-bold: 600 15/20 'Aksara Bali Galang';
-  --sd-theme-typography-h1-regular: 600 10/20 'Aksara Bali Galang';
-  --sd-theme-typography-h2-bold: 600 5/20 'Aksara Bali Galang';
-  --sd-theme-typography-h2-regular: 600 15/20 'Aksara Bali Galang';
-  --sd-theme-typography-body: 600 25/20 'Aksara Bali Galang';
+  --sd-theme-button-size: 100px;
 }

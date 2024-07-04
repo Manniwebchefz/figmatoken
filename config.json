@@ -9,6 +9,15 @@
         "destination": "_variables.css",
         "format": "css/variables"
       }],
+      "actions": ["copy_assets"]
     },
+    "android": {
+      "transforms": ["attribute/cti",  "color/hex", "size/remToSp", "size/remToDp"],
+      "buildPath": "build/android/src/main/res/values/",
+      "files": [{
+        "destination": "style_dictionary_colors.xml",
+        "format": "android/colors"
+      }]
+    }
   }
 }
